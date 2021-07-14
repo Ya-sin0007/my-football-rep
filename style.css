@@ -1,0 +1,181 @@
+/*font style*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+
+body{
+    font-family:'Poppins', sans-serif;
+    border: gray 1px solid;
+}
+/* header section*/
+.flexble-container{
+    display: flex;
+    background-color:#2D25A0;
+}
+h1{
+    color: #FFFFFF;
+    font-size:28px;
+}
+.flexble-container:hover .copa-ditalis{
+    transform: scale(1.2);
+    transition: transform 2s ease-in;
+
+}
+/*end of header section */
+
+
+
+
+
+/*main section here*/
+.photo-album{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 5px;
+    
+}
+.players{
+    width: 250px;
+    height: 400px;
+    margin:10px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    
+}
+.player img{
+ width: 240px;
+ padding-left: 5px;
+ 
+}   
+.player h2 ,p{
+    padding-left:5px;
+}
+/*end of main section*/
+
+
+
+
+
+
+
+/* section here*/
+.flex-container {
+    display: flex;
+    margin-bottom:100px ;
+    margin-top: 10px;
+}
+
+#copa-titile {
+ color:#0A0826;
+}   
+.copa-ditalis p{
+    font-size: 10px;
+    
+}
+.copa-ditalis {
+    width: 50%;
+    padding-left:7.5%;
+    padding-right:7%;
+    margin-left: 22px;
+    margin-top: 65px;
+    margin-bottom: 15px;
+    
+}
+.copa-ditalis img {
+    width: 415px;
+    margin-right:25px;
+}
+a{
+    text-decoration: none;
+    background-color: #E02C6D;
+    color: white;
+    border-radius: 5px;
+    padding:10px 24px;
+    
+}
+a:hover{
+    color: wheat;
+}
+.fas {
+    margin-left: 5px;
+    justify-content: center;
+    align-items: center;
+}
+/*end of section two*/
+
+
+
+
+
+/* start of foot section*/
+footer{
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+.club-logo img{
+    width: 483.87px;
+    height: 110px;
+}
+.fab {
+    margin-left: 20px;
+    width: 32px;
+    height: 32px;
+    color: gray;
+}
+.club-logo p{
+ font-size:10px;
+}
+/*media quary------
+*/
+
+
+/*mobile divises*/
+@media only screen and (max-width:688px){
+     
+    .flexble-container{
+        background-color: violet;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .photo-album{
+         background-color: rgb(0, 255, 98);
+     }
+     .player h2 ,p{
+         color: rgb(8, 1, 1);
+     }
+      .flex-container{
+         display: flex;
+        flex-direction: column;
+        align-items: center;
+       }
+     
+    }
+    
+    
+    
+    
+    /* tablet divise*/
+    @media only screen and (min-width:688px) and (max-width:992px){
+       
+        .flexble-container{
+            background-color: #E02C6D;
+            display: flex;
+            flex-direction: column;
+        }
+        .photo-album{
+            background-color: bisque;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .flex-container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+        
+    
+    
